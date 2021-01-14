@@ -1,16 +1,17 @@
-### Hi there 👋
+### Hi there 👋 ![](https://komarev.com/ghpvc/?username=abdigem3chu&color=grey&style=flat-square)
+---
+```js
+import SoftwareDeveloper from 'abdigem3chu';
 
-<!--
-**abdigem3chu/abdigem3chu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Bio extends SoftwareDeveloper {
+  name     = 'Abdi Gemechu';
+  title    = 'Software Engineer';
+  location = 'Nekemte,Addis Abeba, ET';
+}
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends SoftwareDeveloper {
+  languages  = ['Bash', 'C#', 'Dart', 'Java', 'Kotlin', 'PHP', 'Python'];
+  databases  = ['MSSQL', 'MySQL', 'SQLite'];
+  frameworks = ['Flutter', 'Unity'];
+}
+```
